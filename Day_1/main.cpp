@@ -23,8 +23,8 @@ twoLists parseInput(vector<string> fileVector){
         string side2;
         line >> side1 >> side2;
 
-        sideOne.push_back(stoll(side1));
-        sideTwo.push_back(stoll(side2));
+        sideOne.push_back(stoi(side1));
+        sideTwo.push_back(stoi(side2));
     }
 
     twoLists final(sideOne, sideTwo);
